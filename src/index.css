@@ -1,16 +1,17 @@
 .App {
   background-color: black;
 	color: white;
-	height: 900px;
-	width: 400px;
+	height: 850px;
+	width: 450px;
 	display: flex;
 	flex-direction: column;
-  border-radius: 5px;
+  border-radius: 25px;
   margin: auto;
+  margin-bottom: 20px;
 }
 
 .pic {
-  width: 400px;
+  width: 450px;
   height: 300px;
 }
 .text {
@@ -29,25 +30,49 @@
   padding: 10px 20px;
   margin-top: 12px;
 }
-button {
+.butt2 {
   padding: 10px 1.5rem;
-  background-color: burlywood;
-  color: black;
+  background-color: blue;
+  color: white;
   border-radius: 10px;
   box-sizing: border-box;
   cursor: pointer;
-  
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  font-size: 1rem;
+}
+.butt1 {
+  background-color: white;
+  color: black;
+  width: 40%;
+  margin-right: 12px;
+  border-radius: 10px;
+  font-size: 1rem;
+  padding: 10px 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+  box-sizing: border-box;
 }
 
-.abt {
-  color:sienna;
-    font-family: fantasy;
-    font-size: 30px;
-    font-weight: 900;
-    text-align: center;
+main{
+  margin-left: 50px;
 }
+
 .child {
   text-align: justify;
-    line-height: 20px;
-    color: blueviolet;
+  color: blueviolet;
+  margin-top: -15px;
+}
+
+footer {
+  background-color: #36454F;
+  margin-top: 35px;
+  border-radius: 20px;
+}
+.sm {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
 }
